@@ -1,0 +1,16 @@
+<FrameLayout
+    android:clipChildren="false"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context=".MainActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <fragment
+        android:id="@+id/main_fragment"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        class="com.example.umair.tictactoe.MainFragment"
+        tools:layout="@layout/fragment_main" />
+</FrameLayout>
